@@ -1,0 +1,11 @@
+name: GitHub Actions Demo
+on:
+  push:
+    branches:
+      - main 
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print name
+        run: echo "my name is rasheedat"
